@@ -1,0 +1,25 @@
+services:
+  mc:
+    image: itzg/minecraft-server
+    tty: true
+    stdin_open: true
+    restart: always
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+      TYPE: "MODRINTH"
+      MODRINTH_MODPACK: "https://drive.usercontent.google.com/download?id=1qNGJZ5qB7Z65mnhcBbyVGn-YBOnZ1Ii2"
+      SEED: "paul+asia"
+      USE_AIKAR_FLAGS: true
+      MEMORY: ""
+      JVM_XX_OPTS: "-XX:MaxRAMPercentage=75"
+      SERVER_NAME: "Paul + Asia"
+    deploy:
+      resources:
+        limits:
+          memory: 8GB
+    volumes:
+      # attach the relative directory 'data' to the container's /data path
+      - ./data:/data
+      - ./modpacks:/modpacks:ro
