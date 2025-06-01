@@ -9,7 +9,7 @@ services:
     environment:
       EULA: "TRUE"
       TYPE: "MODRINTH"
-      MODRINTH_MODPACK: "https://drive.usercontent.google.com/download?id=1qNGJZ5qB7Z65mnhcBbyVGn-YBOnZ1Ii2"
+      MODRINTH_MODPACK: "/modpacks/Paul+Asia 1.0.0.mrpack"
       SEED: "paul+asia"
       USE_AIKAR_FLAGS: true
       MEMORY: ""
