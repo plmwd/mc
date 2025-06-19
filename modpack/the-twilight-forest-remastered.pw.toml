@@ -1,0 +1,13 @@
+name = "The Twilight Forest - Remastered"
+filename = "The Twilight Forest - Remastered.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8009bdeedf1ac3642f44cdeafee2a5d5f413b332"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6431344
+project-id = 1244871

@@ -9,17 +9,31 @@ services:
     environment:
       EULA: "TRUE"
       TYPE: "MODRINTH"
-      MODRINTH_MODPACK: "/modpacks/Paul+Asia 1.0.0.mrpack"
+      MODRINTH_MODPACK: "/modpack/modpack-1.0.0.mrpack"
       SEED: "paul+asia"
       USE_AIKAR_FLAGS: true
-      MEMORY: ""
       JVM_XX_OPTS: "-XX:MaxRAMPercentage=75"
       SERVER_NAME: "Paul + Asia"
+      VIEW_DISTANCE: 64
+      ANNOUNCE_PLAYER_ACHIEVEMENTS: true
+      ENFORCE_WHITELIST: true
+      MODRINTH_OVERRIDES_EXCLUSIONS: |
+        config/*
+
+      WHITELIST: |
+        plmwd
+        A5IA
+        TheWoodM4n
+
+      OPS: |
+        plmwd
+
     deploy:
       resources:
         limits:
-          memory: 8GB
+          memory: 16GB
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
-      - ./modpacks:/modpacks:ro
+      - ./modpack:/modpack:ro
+      - ./config:/config:ro
