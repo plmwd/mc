@@ -8,8 +8,9 @@ services:
       - "25565:25565"
     environment:
       EULA: "TRUE"
-      TYPE: "MODRINTH"
+      TYPE: MODRINTH
       MODRINTH_MODPACK: "/modpack/modpack-1.0.0.mrpack"
+      MEMORY: ""
       SEED: "paul+asia"
       USE_AIKAR_FLAGS: true
       JVM_XX_OPTS: "-XX:MaxRAMPercentage=75"

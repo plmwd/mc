@@ -25,10 +25,6 @@ file = "config/xaeroworldmap.txt"
 hash = "ae82dfeabe4226bdc2aa93e2da0ffbb61cd575efc7aff437362e7a82fc409673"
 
 [[files]]
-file = "modrinth.index.json"
-hash = "8ae039367654e086ec9283f77052cbe7a13e29b803786d25334ac5aee3a2a65e"
-
-[[files]]
 file = "mods/create.pw.toml"
 hash = "7f25446123f66f57e7cc8e148155a3da39d85b31963c663b5b9be77fc1bacbe6"
 metafile = true
@@ -61,6 +57,11 @@ metafile = true
 [[files]]
 file = "mods/terralith.pw.toml"
 hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
+metafile = true
+
+[[files]]
+file = "mods/the-twilight-forest.pw.toml"
+hash = "bbd1d4b8b1562f98c9247a29de80b0ba5447dda5b549a8b4ee732c38925b784b"
 metafile = true
 
 [[files]]
@@ -136,9 +137,4 @@ metafile = true
 [[files]]
 file = "shaderpacks/rethinking-voxels.pw.toml"
 hash = "6eab1c7b54fe8538afd2e260f44ea46316ad6edf8132f5699deb2b1a4584ebd7"
-metafile = true
-
-[[files]]
-file = "the-twilight-forest-remastered.pw.toml"
-hash = "5073a6ffc0ca48e5384152856b986b8b6b9b58e266f00b8ae382e72f8dbed1c7"
 metafile = true
