@@ -25,6 +25,11 @@ file = "config/xaeroworldmap.txt"
 hash = "ae82dfeabe4226bdc2aa93e2da0ffbb61cd575efc7aff437362e7a82fc409673"
 
 [[files]]
+file = "mods/chunky.pw.toml"
+hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "7f25446123f66f57e7cc8e148155a3da39d85b31963c663b5b9be77fc1bacbe6"
 metafile = true
