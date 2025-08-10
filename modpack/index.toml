@@ -36,7 +36,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "007ca3fb8a617776705f8f38eab60a286fed6426a0ee1d792af6814f1bc24174"
+hash = "34fc0845727b08bc39e5b56444e0695b55f6a5471380f2d1d40c5548105da28e"
 metafile = true
 
 [[files]]
@@ -46,12 +46,17 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "e1186ddc953e1446af3ba58cbb80ddd0d2315c1571ed5438f5c03953edf0b656"
+hash = "49b54c496707ed15e2f22cd806cbebb3d3ac489483d97f4b61495690e2eeecea"
 metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "b8ce87d9a7164676e68e69e9e6706cd6e9123b1fe740612b1ba39b43ce8675ef"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "587514cb3c29b1aa90191a399aa2aee05bee9e1e170f1f60e9490640eea0897f"
 metafile = true
 
 [[files]]
@@ -71,17 +76,17 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "6377c5bebeb5cda8b79689a2921ec8bd6cb2188b8e66c3e37c9c6ab03bf0d19f"
+hash = "9d76c3683cfea5c5976823a000eacc9944db9f097894356d2a029cf36642ffa4"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "639eeffde2132abdb13f5d9032a174c6e59feda680ac04a15c6962dfee9ab18a"
+hash = "9b8940ac83dde84cfc59860c6544a4b1194e635786c26bd47dc15eee79e63598"
 metafile = true
 
 [[files]]
 file = "mods/yungs-api.pw.toml"
-hash = "4bb587c09a53f82dec620482b3badeee9d6e865902efcfc39139f906cc0b108f"
+hash = "d9c0c9209bac0b693af2a7c1e47ffb28d366bad19c91df31dc6d345fa75250a1"
 metafile = true
 
 [[files]]
